@@ -12,6 +12,10 @@
 body.ds-body{margin:0;background:var(--ds-gradient);color:var(--ds-text);font-family:var(--ds-font);
   font-size:calc(16px * var(--ds-font-scale));font-weight:var(--ds-weight);letter-spacing:var(--ds-letter-spacing);}
 .ds-main{max-width:860px;margin:0 auto;padding:calc(var(--ds-spacing) * 2) var(--ds-spacing);}
+.ds-profile{max-width:860px;margin:0 auto;padding:calc(var(--ds-spacing) * 2) var(--ds-spacing) 0;}
+.ds-profile-name{margin:0;color:var(--ds-heading);font-weight:800;font-size:2em;}
+.ds-profile-title{margin:4px 0 0;opacity:.85;font-size:1.1em;}
+.ds-profile-contact{margin:8px 0 0;opacity:.7;font-size:.9em;}
 .ds-section{margin-bottom:calc(var(--ds-spacing) * 2);text-align:var(--ds-align);
   animation:dsFadeIn .5s ease both;}
 .ds-section-title{color:var(--ds-heading);font-weight:800;font-size:1.4em;margin:0 0 var(--ds-spacing);}
